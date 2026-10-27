@@ -1,0 +1,8 @@
+# Cloudflare Pages config for local / Mac Wrangler deploys.
+# Preview:  pnpm build && npx wrangler pages dev
+# Deploy:   pnpm build && npx wrangler pages deploy
+# GitHub Actions Deploy is intentionally omitted.
+
+name = "income-claim-cn"
+pages_build_output_dir = "./out"
+compatibility_date = "2026-10-27"
